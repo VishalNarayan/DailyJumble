@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B14213420D5C18C00254912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14213320D5C18C00254912 /* AppDelegate.swift */; };
+		2B14213620D5C18C00254912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14213520D5C18C00254912 /* ViewController.swift */; };
+		2B14213920D5C18C00254912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B14213720D5C18C00254912 /* Main.storyboard */; };
+		2B14213B20D5C18D00254912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B14213A20D5C18D00254912 /* Assets.xcassets */; };
+		2B14213E20D5C18D00254912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B14213C20D5C18D00254912 /* LaunchScreen.storyboard */; };
+		2B14214920D5C18D00254912 /* Daily_JumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14214820D5C18D00254912 /* Daily_JumbleTests.swift */; };
+		2B14215420D5C18D00254912 /* Daily_JumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14215320D5C18D00254912 /* Daily_JumbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B14214520D5C18D00254912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B14212820D5C18C00254912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B14212F20D5C18C00254912;
+			remoteInfo = "Daily Jumble";
+		};
+		2B14215020D5C18D00254912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B14212820D5C18C00254912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B14212F20D5C18C00254912;
+			remoteInfo = "Daily Jumble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B14213020D5C18C00254912 /* Daily Jumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Jumble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B14213320D5C18C00254912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B14213520D5C18C00254912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B14213820D5C18C00254912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B14213A20D5C18D00254912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B14213D20D5C18D00254912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B14213F20D5C18D00254912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B14214420D5C18D00254912 /* Daily JumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily JumbleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B14214820D5C18D00254912 /* Daily_JumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_JumbleTests.swift; sourceTree = "<group>"; };
+		2B14214A20D5C18D00254912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B14214F20D5C18D00254912 /* Daily JumbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily JumbleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B14215320D5C18D00254912 /* Daily_JumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_JumbleUITests.swift; sourceTree = "<group>"; };
+		2B14215520D5C18D00254912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B14212D20D5C18C00254912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214120D5C18D00254912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214C20D5C18D00254912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B14212720D5C18C00254912 = {
+			isa = PBXGroup;
+			children = (
+				2B14213220D5C18C00254912 /* Daily Jumble */,
+				2B14214720D5C18D00254912 /* Daily JumbleTests */,
+				2B14215220D5C18D00254912 /* Daily JumbleUITests */,
+				2B14213120D5C18C00254912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B14213120D5C18C00254912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B14213020D5C18C00254912 /* Daily Jumble.app */,
+				2B14214420D5C18D00254912 /* Daily JumbleTests.xctest */,
+				2B14214F20D5C18D00254912 /* Daily JumbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B14213220D5C18C00254912 /* Daily Jumble */ = {
+			isa = PBXGroup;
+			children = (
+				2B14213320D5C18C00254912 /* AppDelegate.swift */,
+				2B14213520D5C18C00254912 /* ViewController.swift */,
+				2B14213720D5C18C00254912 /* Main.storyboard */,
+				2B14213A20D5C18D00254912 /* Assets.xcassets */,
+				2B14213C20D5C18D00254912 /* LaunchScreen.storyboard */,
+				2B14213F20D5C18D00254912 /* Info.plist */,
+			);
+			path = "Daily Jumble";
+			sourceTree = "<group>";
+		};
+		2B14214720D5C18D00254912 /* Daily JumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B14214820D5C18D00254912 /* Daily_JumbleTests.swift */,
+				2B14214A20D5C18D00254912 /* Info.plist */,
+			);
+			path = "Daily JumbleTests";
+			sourceTree = "<group>";
+		};
+		2B14215220D5C18D00254912 /* Daily JumbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B14215320D5C18D00254912 /* Daily_JumbleUITests.swift */,
+				2B14215520D5C18D00254912 /* Info.plist */,
+			);
+			path = "Daily JumbleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B14212F20D5C18C00254912 /* Daily Jumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B14215820D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily Jumble" */;
+			buildPhases = (
+				2B14212C20D5C18C00254912 /* Sources */,
+				2B14212D20D5C18C00254912 /* Frameworks */,
+				2B14212E20D5C18C00254912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Jumble";
+			productName = "Daily Jumble";
+			productReference = 2B14213020D5C18C00254912 /* Daily Jumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B14214320D5C18D00254912 /* Daily JumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B14215B20D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily JumbleTests" */;
+			buildPhases = (
+				2B14214020D5C18D00254912 /* Sources */,
+				2B14214120D5C18D00254912 /* Frameworks */,
+				2B14214220D5C18D00254912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B14214620D5C18D00254912 /* PBXTargetDependency */,
+			);
+			name = "Daily JumbleTests";
+			productName = "Daily JumbleTests";
+			productReference = 2B14214420D5C18D00254912 /* Daily JumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B14214E20D5C18D00254912 /* Daily JumbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B14215E20D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily JumbleUITests" */;
+			buildPhases = (
+				2B14214B20D5C18D00254912 /* Sources */,
+				2B14214C20D5C18D00254912 /* Frameworks */,
+				2B14214D20D5C18D00254912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B14215120D5C18D00254912 /* PBXTargetDependency */,
+			);
+			name = "Daily JumbleUITests";
+			productName = "Daily JumbleUITests";
+			productReference = 2B14214F20D5C18D00254912 /* Daily JumbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B14212820D5C18C00254912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vishal Narayan";
+				TargetAttributes = {
+					2B14212F20D5C18C00254912 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2B14214320D5C18D00254912 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2B14212F20D5C18C00254912;
+					};
+					2B14214E20D5C18D00254912 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2B14212F20D5C18C00254912;
+					};
+				};
+			};
+			buildConfigurationList = 2B14212B20D5C18C00254912 /* Build configuration list for PBXProject "Daily Jumble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B14212720D5C18C00254912;
+			productRefGroup = 2B14213120D5C18C00254912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B14212F20D5C18C00254912 /* Daily Jumble */,
+				2B14214320D5C18D00254912 /* Daily JumbleTests */,
+				2B14214E20D5C18D00254912 /* Daily JumbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B14212E20D5C18C00254912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B14213E20D5C18D00254912 /* LaunchScreen.storyboard in Resources */,
+				2B14213B20D5C18D00254912 /* Assets.xcassets in Resources */,
+				2B14213920D5C18C00254912 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214220D5C18D00254912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214D20D5C18D00254912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B14212C20D5C18C00254912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B14213620D5C18C00254912 /* ViewController.swift in Sources */,
+				2B14213420D5C18C00254912 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214020D5C18D00254912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B14214920D5C18D00254912 /* Daily_JumbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B14214B20D5C18D00254912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B14215420D5C18D00254912 /* Daily_JumbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B14214620D5C18D00254912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B14212F20D5C18C00254912 /* Daily Jumble */;
+			targetProxy = 2B14214520D5C18D00254912 /* PBXContainerItemProxy */;
+		};
+		2B14215120D5C18D00254912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B14212F20D5C18C00254912 /* Daily Jumble */;
+			targetProxy = 2B14215020D5C18D00254912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B14213720D5C18C00254912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B14213820D5C18C00254912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B14213C20D5C18D00254912 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B14213D20D5C18D00254912 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B14215620D5C18D00254912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B14215720D5C18D00254912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B14215920D5C18D00254912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily Jumble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-Jumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B14215A20D5C18D00254912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily Jumble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-Jumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B14215C20D5C18D00254912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily JumbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-JumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Jumble.app/Daily Jumble";
+			};
+			name = Debug;
+		};
+		2B14215D20D5C18D00254912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily JumbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-JumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Jumble.app/Daily Jumble";
+			};
+			name = Release;
+		};
+		2B14215F20D5C18D00254912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily JumbleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-JumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Jumble";
+			};
+			name = Debug;
+		};
+		2B14216020D5C18D00254912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				INFOPLIST_FILE = "Daily JumbleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-JumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Jumble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B14212B20D5C18C00254912 /* Build configuration list for PBXProject "Daily Jumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B14215620D5C18D00254912 /* Debug */,
+				2B14215720D5C18D00254912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B14215820D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily Jumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B14215920D5C18D00254912 /* Debug */,
+				2B14215A20D5C18D00254912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B14215B20D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily JumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B14215C20D5C18D00254912 /* Debug */,
+				2B14215D20D5C18D00254912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B14215E20D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily JumbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B14215F20D5C18D00254912 /* Debug */,
+				2B14216020D5C18D00254912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B14212820D5C18C00254912 /* Project object */;
+}
