@@ -20,6 +20,7 @@ class fiveLetterWords: UIViewController, UITextViewDelegate, UITextFieldDelegate
         word.delegate = self
         textField.delegate = self
         
+        
         if let startWordsPath = Bundle.main.path(forResource: "five", ofType: "txt"){
             do{
                 let startWords = try String(contentsOfFile: startWordsPath, encoding: String.Encoding.utf8)
