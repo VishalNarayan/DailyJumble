@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class wordViewViewController: UIViewController{
 
     
@@ -65,8 +63,6 @@ class wordViewViewController: UIViewController{
         seconds = 0.0
         timeSelected = 1/30
         isTimerRunning = false
-        
-        
 
         progress.setProgress(0.0, animated: false)
         
@@ -76,7 +72,6 @@ class wordViewViewController: UIViewController{
         textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         timeOptions.addTarget(self, action: #selector(setTime), for: .valueChanged)
         lengthOptions.addTarget(self, action: #selector(setLength), for: .valueChanged)
-        
     }
     
     func runTimer() {
@@ -226,16 +221,5 @@ class wordViewViewController: UIViewController{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

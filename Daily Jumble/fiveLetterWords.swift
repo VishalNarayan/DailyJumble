@@ -31,8 +31,7 @@ class fiveLetterWords: UIViewController, UITextViewDelegate, UITextFieldDelegate
         importAllTexts()
         AppDelegate.amp.observe(name: "wordViewed", properties: ["Mode": "Free Play", "word": randomword, "length" : length])
 
-    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to:nil, from:nil, for:nil)
-        
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to:nil, from:nil, for:nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,6 +41,7 @@ class fiveLetterWords: UIViewController, UITextViewDelegate, UITextFieldDelegate
     
     @IBOutlet weak var word: UITextView!
     
+    //Import appropriate text file.
     func importAllTexts() {
         if let startWordsPath = Bundle.main.path(forResource: length, ofType: "txt"){
             do{
