@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Daily Jumble-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="Initial" id="BYZ-38-t0r" customClass="ViewController" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,70 +18,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="KGe-SV-3jf" userLabel="Options">
-                                <rect key="frame" x="90" y="131" width="196" height="405"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="KGe-SV-3jf" userLabel="Options">
+                                <rect key="frame" x="87.5" y="118.5" width="200" height="430"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2R-Dr-YRz">
-                                        <rect key="frame" x="51" y="0.0" width="94" height="33"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="WORD LIST"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                                        <color key="backgroundColor" red="0.49076211510000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="8Xy-dA-0pj"/>
+                                            <constraint firstAttribute="height" constant="100" id="hBL-gK-Q9s"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="26"/>
+                                        <state key="normal" title="TIME TRIAL">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="wordList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AEr-w9-hDj"/>
                                             <segue destination="Yfr-Ds-BKn" kind="show" id="DtI-RF-FKo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2m-lc-fSi">
-                                        <rect key="frame" x="10" y="93" width="176" height="33"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="FIVE-LETTER WORDS"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2m-lc-fSi" userLabel="FREE PLAY">
+                                        <rect key="frame" x="0.0" y="165" width="200" height="100"/>
+                                        <color key="backgroundColor" red="0.49076211510000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="sxg-Jy-F2u"/>
+                                            <constraint firstAttribute="height" constant="100" id="vwm-n1-pW7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="26"/>
+                                        <state key="normal" title="FREE PLAY">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="fiveLetterWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fhu-nZ-O1g"/>
                                             <segue destination="Rt8-Cv-a7z" kind="show" id="9v8-JD-ruf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JD9-rE-2Ro">
-                                        <rect key="frame" x="14.5" y="186" width="167" height="33"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="SIX-LETTER WORDS"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhp-g5-qzm" userLabel="FREE PLAY">
+                                        <rect key="frame" x="0.0" y="330" width="200" height="100"/>
+                                        <color key="backgroundColor" red="0.49076211510000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="9NQ-bM-p27"/>
+                                            <constraint firstAttribute="width" constant="200" id="j64-fb-29r"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="26"/>
+                                        <state key="normal" title="HIGHSCORES">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
-                                            <action selector="sixLetterWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Dl-bb-v3N"/>
-                                            <segue destination="iLW-IQ-WQf" kind="show" id="Pk9-9f-cBp"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lU4-w7-1ji">
-                                        <rect key="frame" x="0.0" y="279" width="196" height="33"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="SEVEN-LETTER WORDS"/>
-                                        <connections>
-                                            <action selector="sevenLetterWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKe-Qj-6ly"/>
-                                            <segue destination="cJH-tL-PzQ" kind="show" id="bBc-ew-QAs"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGo-cz-7Ey">
-                                        <rect key="frame" x="40" y="372" width="116" height="33"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <state key="normal" title="LONG WORDS"/>
-                                        <connections>
-                                            <action selector="longWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bP-Rw-0HL"/>
-                                            <segue destination="MdQ-Cb-JHh" kind="show" id="0kf-k3-ypZ"/>
+                                            <segue destination="JLY-D6-elj" kind="show" id="hIW-L6-o2M"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="KGe-SV-3jf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8bO-5A-mft"/>
-                            <constraint firstItem="KGe-SV-3jf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BJE-d3-btj"/>
+                            <constraint firstItem="KGe-SV-3jf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ji8-eX-aL6"/>
+                            <constraint firstItem="KGe-SV-3jf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m6N-2v-2Jz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="c8n-DJ-XeJ"/>
+                    <navigationItem key="navigationItem" title="Daily Jumble" id="c8n-DJ-XeJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,50 +87,65 @@
         <!--fiveLetterWords-->
         <scene sceneID="19T-uH-POK">
             <objects>
-                <viewController title="playGame" id="Rt8-Cv-a7z" userLabel="fiveLetterWords" customClass="fiveLetterWords" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="FREE PLAY" id="Rt8-Cv-a7z" userLabel="fiveLetterWords" customClass="fiveLetterWords" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rXM-BS-HoS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgq-wq-n12">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" text="Placeholder Text" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgq-wq-n12">
                                 <rect key="frame" x="12" y="114" width="350" height="130"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="350" id="csP-1q-i6D"/>
                                     <constraint firstAttribute="height" constant="130" id="zhZ-c9-w22"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Placeholder Text">
-                                        <attributes>
-                                            <font key="NSFont" size="48" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <color key="textColor" red="0.61960784313725492" green="0.47450980392156861" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bME-My-Oiw">
-                                <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bME-My-Oiw">
+                                <rect key="frame" x="112" y="308.5" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Aes-5Z-mtq"/>
                                     <constraint firstAttribute="height" constant="50" id="TZG-nE-QPV"/>
                                 </constraints>
-                                <attributedString key="attributedText"/>
+                                <color key="textColor" red="0.49076211510000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYR-rT-zGu">
-                                <rect key="frame" x="161.5" y="557" width="51" height="30"/>
-                                <state key="normal" title="CHECK"/>
+                                <rect key="frame" x="131.5" y="538" width="111" height="49"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
+                                <state key="normal" title="CHECK">
+                                    <color key="titleColor" red="0.49076211512996459" green="0.40730236087288779" blue="0.24803698023003801" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="check:" destination="Rt8-Cv-a7z" eventType="touchUpInside" id="bSs-XS-Gjq"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="afI-AF-jD7">
+                                <rect key="frame" x="8" y="460" width="359" height="28"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hue-mZ-blK">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="29"/>
+                                        <segments>
+                                            <segment title="5 letters"/>
+                                            <segment title="6 letters"/>
+                                            <segment title="7 letters"/>
+                                            <segment title="&gt;7 letters"/>
+                                            <segment title="All"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Zgq-wq-n12" firstAttribute="top" secondItem="3n2-2u-mx6" secondAttribute="top" constant="50" id="GpO-2d-teu"/>
                             <constraint firstItem="3n2-2u-mx6" firstAttribute="bottom" secondItem="fYR-rT-zGu" secondAttribute="bottom" constant="80" id="J0N-uf-sGL"/>
                             <constraint firstItem="fYR-rT-zGu" firstAttribute="centerX" secondItem="rXM-BS-HoS" secondAttribute="centerX" id="LYx-37-lvv"/>
+                            <constraint firstItem="fYR-rT-zGu" firstAttribute="top" secondItem="afI-AF-jD7" secondAttribute="bottom" constant="50" id="WwQ-JX-qFH"/>
+                            <constraint firstItem="afI-AF-jD7" firstAttribute="centerX" secondItem="rXM-BS-HoS" secondAttribute="centerX" id="dn5-em-50k"/>
                             <constraint firstItem="bME-My-Oiw" firstAttribute="centerY" secondItem="rXM-BS-HoS" secondAttribute="centerY" id="dte-do-qmv"/>
                             <constraint firstItem="Zgq-wq-n12" firstAttribute="centerX" secondItem="rXM-BS-HoS" secondAttribute="centerX" id="q4f-RK-m40"/>
                             <constraint firstItem="bME-My-Oiw" firstAttribute="centerX" secondItem="rXM-BS-HoS" secondAttribute="centerX" id="xrv-2j-XnU"/>
@@ -141,6 +153,7 @@
                         <viewLayoutGuide key="safeArea" id="3n2-2u-mx6"/>
                     </view>
                     <connections>
+                        <outlet property="lengthOptions" destination="hue-mZ-blK" id="xL3-Pf-ApQ"/>
                         <outlet property="textField" destination="bME-My-Oiw" id="EWL-WL-opj"/>
                         <outlet property="word" destination="Zgq-wq-n12" id="KZB-A7-a4R"/>
                     </connections>
@@ -149,43 +162,150 @@
             </objects>
             <point key="canvasLocation" x="-14" y="826"/>
         </scene>
-        <!--Word View View Controller-->
+        <!--TIME TRIAL-->
         <scene sceneID="3Nr-Ji-2Z8">
             <objects>
-                <viewController storyboardIdentifier="wordView" id="Yfr-Ds-BKn" customClass="wordViewViewController" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wordView" title="TIME TRIAL" id="Yfr-Ds-BKn" customClass="wordViewViewController" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xf2-fl-hhr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="82e-WX-ZEh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" text="Placeholder Text" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk3-qS-os5">
+                                <rect key="frame" x="12" y="114" width="350" height="130"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="Pwk-ME-AMK"/>
+                                    <constraint firstAttribute="height" constant="130" id="o4z-rV-4q6"/>
+                                </constraints>
+                                <color key="textColor" red="0.61960784310000006" green="0.47450980390000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qz7-dn-nq7">
+                                <rect key="frame" x="112" y="309" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Fdu-GL-HT4"/>
+                                    <constraint firstAttribute="height" constant="50" id="e7V-ST-Tff"/>
+                                </constraints>
+                                <color key="textColor" red="0.49076211510000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aba-MV-aL7">
+                                <rect key="frame" x="13" y="92" width="350" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="Far-O5-yI0"/>
+                                </constraints>
+                            </progressView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="score" editable="NO" text="0" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Foq-WY-OTg">
+                                <rect key="frame" x="12" y="234" width="350" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="lnF-cT-CiM"/>
+                                    <constraint firstAttribute="height" constant="60" id="m5e-Cv-OQo"/>
+                                </constraints>
+                                <color key="textColor" red="0.55433286390000003" green="0.46006217109999997" blue="0.28016638890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMx-yw-4uB">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="MVq-h0-pg5">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MVq-h0-pg5" id="cIc-At-he1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kr5-Fn-ao5">
+                                <rect key="frame" x="134" y="309" width="107" height="49"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <outlet property="dataSource" destination="Yfr-Ds-BKn" id="20D-Jw-8xJ"/>
-                                    <outlet property="delegate" destination="Yfr-Ds-BKn" id="3DH-E1-NtB"/>
+                                    <action selector="start:" destination="Yfr-Ds-BKn" eventType="touchUpInside" id="asg-bb-xUD"/>
                                 </connections>
-                            </tableView>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIP-3f-yYx">
+                                <rect key="frame" x="75" y="309" width="224" height="49"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
+                                <state key="normal" title="PLAY AGAIN?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playagain:" destination="Yfr-Ds-BKn" eventType="touchUpInside" id="Mhw-Br-8ep"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qck-gy-8Rc">
+                                <rect key="frame" x="300" y="249" width="45" height="49"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
+                                <state key="normal" title="&gt;&gt;&gt;">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="skip:" destination="Yfr-Ds-BKn" eventType="touchUpInside" id="oAY-2J-pIb"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="kuM-pC-fik">
+                                <rect key="frame" x="3" y="459" width="359" height="79"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="afs-fe-w5Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="29"/>
+                                        <segments>
+                                            <segment title="5 letters"/>
+                                            <segment title="6 letters"/>
+                                            <segment title="7 letters"/>
+                                            <segment title="&gt;7 letters"/>
+                                            <segment title="All"/>
+                                        </segments>
+                                        <color key="tintColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-ts-KKw">
+                                        <rect key="frame" x="94.5" y="51" width="170" height="29"/>
+                                        <segments>
+                                            <segment title="30 sec"/>
+                                            <segment title="1 min"/>
+                                            <segment title="2 min"/>
+                                        </segments>
+                                        <color key="tintColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.73401070794673762" green="1" blue="0.48194186730318966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="82e-WX-ZEh" firstAttribute="leading" secondItem="9Xg-AY-pKu" secondAttribute="leading" id="Dfo-wJ-UR6"/>
-                            <constraint firstItem="82e-WX-ZEh" firstAttribute="top" secondItem="9Xg-AY-pKu" secondAttribute="top" id="T7i-4a-zxL"/>
-                            <constraint firstItem="82e-WX-ZEh" firstAttribute="trailing" secondItem="9Xg-AY-pKu" secondAttribute="trailing" id="oXC-6i-0M5"/>
-                            <constraint firstItem="9Xg-AY-pKu" firstAttribute="bottom" secondItem="82e-WX-ZEh" secondAttribute="bottom" id="xTb-ic-aXf"/>
+                            <constraint firstItem="TMx-yw-4uB" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="6tQ-pg-873"/>
+                            <constraint firstItem="Foq-WY-OTg" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="AiS-Nf-ecD"/>
+                            <constraint firstItem="kr5-Fn-ao5" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="DyD-7k-VFG"/>
+                            <constraint firstItem="9Xg-AY-pKu" firstAttribute="trailing" secondItem="qck-gy-8Rc" secondAttribute="trailing" constant="30" id="OCD-rT-OFp"/>
+                            <constraint firstItem="TMx-yw-4uB" firstAttribute="top" secondItem="9Xg-AY-pKu" secondAttribute="top" id="Vnq-DW-Ixb"/>
+                            <constraint firstItem="aba-MV-aL7" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="XJR-9H-BaB"/>
+                            <constraint firstItem="Gk3-qS-os5" firstAttribute="top" secondItem="9Xg-AY-pKu" secondAttribute="top" constant="50" id="bi8-vo-aQu"/>
+                            <constraint firstItem="kuM-pC-fik" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" constant="-5" id="h1W-B5-wXi"/>
+                            <constraint firstItem="TMx-yw-4uB" firstAttribute="trailing" secondItem="9Xg-AY-pKu" secondAttribute="trailing" id="kfe-es-uKM"/>
+                            <constraint firstItem="Foq-WY-OTg" firstAttribute="top" secondItem="Gk3-qS-os5" secondAttribute="bottom" constant="-10" id="mo5-0k-o4E"/>
+                            <constraint firstItem="qz7-dn-nq7" firstAttribute="centerY" secondItem="Xf2-fl-hhr" secondAttribute="centerY" id="msb-50-n0D"/>
+                            <constraint firstItem="kr5-Fn-ao5" firstAttribute="centerY" secondItem="Xf2-fl-hhr" secondAttribute="centerY" id="n5L-V4-8cU"/>
+                            <constraint firstItem="TMx-yw-4uB" firstAttribute="bottom" secondItem="9Xg-AY-pKu" secondAttribute="bottom" id="npv-Vh-vSj"/>
+                            <constraint firstItem="dIP-3f-yYx" firstAttribute="centerY" secondItem="Xf2-fl-hhr" secondAttribute="centerY" id="pQk-X9-sEy"/>
+                            <constraint firstItem="Gk3-qS-os5" firstAttribute="top" secondItem="aba-MV-aL7" secondAttribute="bottom" constant="20" id="qDn-em-w86"/>
+                            <constraint firstItem="qz7-dn-nq7" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="rVH-Tc-3P7"/>
+                            <constraint firstItem="TMx-yw-4uB" firstAttribute="leading" secondItem="9Xg-AY-pKu" secondAttribute="leading" id="s4r-Y0-ayt"/>
+                            <constraint firstItem="kuM-pC-fik" firstAttribute="top" secondItem="qz7-dn-nq7" secondAttribute="bottom" constant="100" id="syR-w5-KXo"/>
+                            <constraint firstItem="dIP-3f-yYx" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="vsh-Re-gDv"/>
+                            <constraint firstItem="Gk3-qS-os5" firstAttribute="centerX" secondItem="Xf2-fl-hhr" secondAttribute="centerX" id="x2V-hH-hk1"/>
+                            <constraint firstItem="qck-gy-8Rc" firstAttribute="top" secondItem="Gk3-qS-os5" secondAttribute="bottom" constant="5" id="xb5-F3-lgD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Xg-AY-pKu"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ubv-Ks-SZz"/>
+                    <connections>
+                        <outlet property="dimmer" destination="TMx-yw-4uB" id="KrI-wc-cmc"/>
+                        <outlet property="lengthOptions" destination="afs-fe-w5Q" id="BB6-V2-D6P"/>
+                        <outlet property="playAgain" destination="dIP-3f-yYx" id="uiO-bd-tG7"/>
+                        <outlet property="progress" destination="aba-MV-aL7" id="c9M-42-N1K"/>
+                        <outlet property="score" destination="Foq-WY-OTg" id="mJK-ZY-gHU"/>
+                        <outlet property="skipButton" destination="qck-gy-8Rc" id="b0t-kD-dlw"/>
+                        <outlet property="startbutton" destination="kr5-Fn-ao5" id="ZRM-Wo-W5U"/>
+                        <outlet property="textField" destination="qz7-dn-nq7" id="nzJ-wL-2ha"/>
+                        <outlet property="timeOptions" destination="1Bw-ts-KKw" id="dm6-y9-P16"/>
+                        <outlet property="word" destination="Gk3-qS-os5" id="wvh-ah-Sxy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2xr-pT-Xyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,6 +319,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L6w-Xz-ivu">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                            <color key="textColor" red="0.49019607840000001" green="0.40730236089999999" blue="0.24803698020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textShadowColor" red="0.61960784310000006" green="0.47450980390000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -209,191 +335,68 @@
             </objects>
             <point key="canvasLocation" x="-164" y="43.628185907046479"/>
         </scene>
-        <!--sixLetterWords-->
-        <scene sceneID="c24-tX-Jey">
+        <!--fiveLetterWords-->
+        <scene sceneID="XcG-SP-IN2">
             <objects>
-                <viewController title="playGame" id="iLW-IQ-WQf" userLabel="sixLetterWords" customClass="sixLetterWords" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xdk-26-2rI">
+                <viewController title="HIGHSCORES" id="JLY-D6-elj" userLabel="fiveLetterWords" customClass="HighScoresViewController" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2YA-g5-CPj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56v-88-i6b">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" text="Placeholder Text" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdG-gD-8ch">
                                 <rect key="frame" x="12" y="114" width="350" height="130"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="5lH-dw-3DB"/>
-                                    <constraint firstAttribute="height" constant="130" id="kYF-UM-qcA"/>
+                                    <constraint firstAttribute="width" constant="350" id="XrT-qA-DxU"/>
+                                    <constraint firstAttribute="height" constant="130" id="qS7-Ok-URO"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Placeholder Text">
-                                        <attributes>
-                                            <font key="NSFont" size="48" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <color key="textColor" red="0.61960784310000006" green="0.47450980390000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RQF-98-QfE">
-                                <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="aJM-hg-hub"/>
-                                    <constraint firstAttribute="width" constant="150" id="aNd-XJ-5RO"/>
-                                </constraints>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOm-Mf-com">
-                                <rect key="frame" x="161.5" y="557" width="51" height="30"/>
-                                <state key="normal" title="CHECK"/>
-                                <connections>
-                                    <action selector="check:" destination="iLW-IQ-WQf" eventType="touchUpInside" id="WC4-Qp-aw5"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="q2L-Dy-U3S">
+                                <rect key="frame" x="8" y="294" width="359" height="79"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="UBF-IL-8lW">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="29"/>
+                                        <segments>
+                                            <segment title="5 letters"/>
+                                            <segment title="6 letters"/>
+                                            <segment title="7 letters"/>
+                                            <segment title="&gt;7 letters"/>
+                                            <segment title="All"/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZJT-jA-XFv">
+                                        <rect key="frame" x="94.5" y="51" width="170" height="29"/>
+                                        <segments>
+                                            <segment title="30 sec"/>
+                                            <segment title="1 min"/>
+                                            <segment title="2 min"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="RQF-98-QfE" firstAttribute="centerY" secondItem="xdk-26-2rI" secondAttribute="centerY" id="17n-NR-xzR"/>
-                            <constraint firstItem="56v-88-i6b" firstAttribute="top" secondItem="JAc-Ti-3Eu" secondAttribute="top" constant="50" id="DKN-iG-JGk"/>
-                            <constraint firstItem="JAc-Ti-3Eu" firstAttribute="bottom" secondItem="SOm-Mf-com" secondAttribute="bottom" constant="80" id="Pkp-9i-kCp"/>
-                            <constraint firstItem="SOm-Mf-com" firstAttribute="centerX" secondItem="xdk-26-2rI" secondAttribute="centerX" id="a4c-Bc-R1Z"/>
-                            <constraint firstItem="56v-88-i6b" firstAttribute="centerX" secondItem="xdk-26-2rI" secondAttribute="centerX" id="lh4-4I-ckR"/>
-                            <constraint firstItem="RQF-98-QfE" firstAttribute="centerX" secondItem="xdk-26-2rI" secondAttribute="centerX" id="oeh-s1-DbC"/>
+                            <constraint firstItem="q2L-Dy-U3S" firstAttribute="centerX" secondItem="2YA-g5-CPj" secondAttribute="centerX" id="6K3-hD-TkQ"/>
+                            <constraint firstItem="q2L-Dy-U3S" firstAttribute="centerY" secondItem="2YA-g5-CPj" secondAttribute="centerY" id="8Mx-Vj-cvw"/>
+                            <constraint firstItem="tdG-gD-8ch" firstAttribute="top" secondItem="jbN-yg-mvD" secondAttribute="top" constant="50" id="SfB-Po-4Z6"/>
+                            <constraint firstItem="tdG-gD-8ch" firstAttribute="centerX" secondItem="2YA-g5-CPj" secondAttribute="centerX" id="iJP-Ed-fG3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="JAc-Ti-3Eu"/>
+                        <viewLayoutGuide key="safeArea" id="jbN-yg-mvD"/>
                     </view>
                     <connections>
-                        <outlet property="textField" destination="RQF-98-QfE" id="edw-53-hW0"/>
-                        <outlet property="word" destination="56v-88-i6b" id="GFj-d4-mXQ"/>
+                        <outlet property="lengthOptions" destination="UBF-IL-8lW" id="Lot-7U-yyr"/>
+                        <outlet property="scoreText" destination="tdG-gD-8ch" id="6C6-hX-QoW"/>
+                        <outlet property="timeOptions" destination="ZJT-jA-XFv" id="eMx-CK-DV5"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WUR-5r-09b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYA-vb-dzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="825"/>
-        </scene>
-        <!--sevenLetterWords-->
-        <scene sceneID="N2N-mX-Yqg">
-            <objects>
-                <viewController title="playGame" id="cJH-tL-PzQ" userLabel="sevenLetterWords" customClass="sevenLetterWords" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="M7d-4l-m6C">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6z-Qz-4To">
-                                <rect key="frame" x="12" y="114" width="350" height="130"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="A8q-yF-HVO"/>
-                                    <constraint firstAttribute="height" constant="130" id="tTQ-vg-DXC"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Placeholder Text">
-                                        <attributes>
-                                            <font key="NSFont" size="48" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rUo-5k-FoS">
-                                <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="WmO-Op-oU3"/>
-                                    <constraint firstAttribute="width" constant="150" id="gAK-QV-Opc"/>
-                                </constraints>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmG-yD-ro1">
-                                <rect key="frame" x="161.5" y="557" width="51" height="30"/>
-                                <state key="normal" title="CHECK"/>
-                                <connections>
-                                    <action selector="check:" destination="cJH-tL-PzQ" eventType="touchUpInside" id="S3Q-Kh-mQV"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="R6z-Qz-4To" firstAttribute="centerX" secondItem="M7d-4l-m6C" secondAttribute="centerX" id="I2S-qO-hSS"/>
-                            <constraint firstItem="rUo-5k-FoS" firstAttribute="centerY" secondItem="M7d-4l-m6C" secondAttribute="centerY" id="Oqi-Jg-eBs"/>
-                            <constraint firstItem="rUo-5k-FoS" firstAttribute="centerX" secondItem="M7d-4l-m6C" secondAttribute="centerX" id="WbR-qm-GKh"/>
-                            <constraint firstItem="G7i-Gt-8fQ" firstAttribute="bottom" secondItem="UmG-yD-ro1" secondAttribute="bottom" constant="80" id="WeS-Ch-TQm"/>
-                            <constraint firstItem="R6z-Qz-4To" firstAttribute="top" secondItem="G7i-Gt-8fQ" secondAttribute="top" constant="50" id="n2n-PG-k9v"/>
-                            <constraint firstItem="UmG-yD-ro1" firstAttribute="centerX" secondItem="M7d-4l-m6C" secondAttribute="centerX" id="oCW-WT-gqT"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="G7i-Gt-8fQ"/>
-                    </view>
-                    <connections>
-                        <outlet property="textField" destination="rUo-5k-FoS" id="nen-ot-82S"/>
-                        <outlet property="word" destination="R6z-Qz-4To" id="dOs-0V-S8I"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cFt-p6-DN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1502" y="824"/>
-        </scene>
-        <!--longWords-->
-        <scene sceneID="Z4X-cR-ZeA">
-            <objects>
-                <viewController title="playGame" id="MdQ-Cb-JHh" userLabel="longWords" customClass="longWords" customModule="Daily_Jumble" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Hlp-uF-B7n">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="word" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqT-a1-Mdn">
-                                <rect key="frame" x="12" y="114" width="350" height="130"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="GNV-jh-YYY"/>
-                                    <constraint firstAttribute="height" constant="130" id="bYU-wk-UN3"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Placeholder Text">
-                                        <attributes>
-                                            <font key="NSFont" size="48" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-fp-uFa">
-                                <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="b5n-aW-9zw"/>
-                                    <constraint firstAttribute="width" constant="150" id="wJv-ea-56Q"/>
-                                </constraints>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kaw-uP-pxq">
-                                <rect key="frame" x="161.5" y="557" width="51" height="30"/>
-                                <state key="normal" title="CHECK"/>
-                                <connections>
-                                    <action selector="check:" destination="MdQ-Cb-JHh" eventType="touchUpInside" id="v19-5A-HdX"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="YqT-a1-Mdn" firstAttribute="centerX" secondItem="Hlp-uF-B7n" secondAttribute="centerX" id="163-r3-2bv"/>
-                            <constraint firstItem="dgd-fp-uFa" firstAttribute="centerX" secondItem="Hlp-uF-B7n" secondAttribute="centerX" id="64Y-5J-7kq"/>
-                            <constraint firstItem="dgd-fp-uFa" firstAttribute="centerY" secondItem="Hlp-uF-B7n" secondAttribute="centerY" id="8az-ir-hio"/>
-                            <constraint firstItem="Kaw-uP-pxq" firstAttribute="centerX" secondItem="Hlp-uF-B7n" secondAttribute="centerX" id="Lgw-tW-qwL"/>
-                            <constraint firstItem="YG8-67-pFE" firstAttribute="bottom" secondItem="Kaw-uP-pxq" secondAttribute="bottom" constant="80" id="pdQ-xh-gBJ"/>
-                            <constraint firstItem="YqT-a1-Mdn" firstAttribute="top" secondItem="YG8-67-pFE" secondAttribute="top" constant="50" id="rcz-JR-l8o"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="YG8-67-pFE"/>
-                    </view>
-                    <connections>
-                        <outlet property="textField" destination="dgd-fp-uFa" id="f6M-ky-MUr"/>
-                        <outlet property="word" destination="YqT-a1-Mdn" id="j3z-IO-4eC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzq-YE-X7M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2290" y="825"/>
+            <point key="canvasLocation" x="1280.8" y="824.43778110944538"/>
         </scene>
     </scenes>
 </document>

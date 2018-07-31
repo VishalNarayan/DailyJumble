@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import GoogleSignIn
-import UserNotifications
+
 
 class ViewController: UIViewController {
     
@@ -17,17 +16,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in })
         
-        let content = UNMutableNotificationContent()
-        content.title = "You are correct!"
-        content.subtitle = "correctamundo"
-        content.body = "hello"
-        content.badge = 1
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        let request = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        
         
     }
 

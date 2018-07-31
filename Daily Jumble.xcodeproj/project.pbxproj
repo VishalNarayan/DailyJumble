@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B0ADBFC20DF10D500F1D3CA /* mediumsome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B0ADBFB20DF10D500F1D3CA /* mediumsome.txt */; };
-		2B0ADC0120DF237100F1D3CA /* six.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B0ADBFD20DF237000F1D3CA /* six.txt */; };
-		2B0ADC0220DF237100F1D3CA /* long.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B0ADBFE20DF237000F1D3CA /* long.txt */; };
-		2B0ADC0320DF237100F1D3CA /* seven.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B0ADBFF20DF237000F1D3CA /* seven.txt */; };
-		2B0ADC0420DF237100F1D3CA /* five.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B0ADC0020DF237100F1D3CA /* five.txt */; };
-		2B0ADC0620DF271B00F1D3CA /* sixLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0ADC0520DF271B00F1D3CA /* sixLetterWords.swift */; };
-		2B0ADC0820DF27D200F1D3CA /* sevenLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0ADC0720DF27D200F1D3CA /* sevenLetterWords.swift */; };
-		2B0ADC0A20DF27DF00F1D3CA /* longWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0ADC0920DF27DF00F1D3CA /* longWords.swift */; };
+		2B10F18720EFFAB300A4A3FC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B10F18620EFFAB300A4A3FC /* NotificationService.swift */; };
+		2B10F18B20EFFAB300A4A3FC /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B10F18420EFFAB300A4A3FC /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B14213420D5C18C00254912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14213320D5C18C00254912 /* AppDelegate.swift */; };
 		2B14213620D5C18C00254912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14213520D5C18C00254912 /* ViewController.swift */; };
 		2B14213920D5C18C00254912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B14213720D5C18C00254912 /* Main.storyboard */; };
@@ -23,7 +17,12 @@
 		2B14214920D5C18D00254912 /* Daily_JumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14214820D5C18D00254912 /* Daily_JumbleTests.swift */; };
 		2B14215420D5C18D00254912 /* Daily_JumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14215320D5C18D00254912 /* Daily_JumbleUITests.swift */; };
 		2B14216220D5D30200254912 /* wordViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14216120D5D30200254912 /* wordViewViewController.swift */; };
-		2BDC4F2D20DC147C009A8EE5 /* some.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BDC4F2C20DC147C009A8EE5 /* some.txt */; };
+		2B3A7121210F70E600AAAEB0 /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3A7120210F70E600AAAEB0 /* HighScoresViewController.swift */; };
+		2B3A713F2110F53B00AAAEB0 /* long.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B3A713A2110F53900AAAEB0 /* long.txt */; };
+		2B3A71402110F53B00AAAEB0 /* five.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B3A713B2110F53900AAAEB0 /* five.txt */; };
+		2B3A71412110F53B00AAAEB0 /* seven.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B3A713C2110F53900AAAEB0 /* seven.txt */; };
+		2B3A71422110F53B00AAAEB0 /* some.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B3A713D2110F53A00AAAEB0 /* some.txt */; };
+		2B3A71432110F53B00AAAEB0 /* six.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B3A713E2110F53A00AAAEB0 /* six.txt */; };
 		2BDC4F3120DC7FF3009A8EE5 /* fiveLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC4F3020DC7FF3009A8EE5 /* fiveLetterWords.swift */; };
 		45BE8EEAF81D9AFD10D0AE0A /* Pods_Daily_JumbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907CC037DD21B6F07381744D /* Pods_Daily_JumbleTests.framework */; };
 		ADE9840B05D755A8B4B21318 /* Pods_Daily_Jumble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430F2329830EFF89F040D913 /* Pods_Daily_Jumble.framework */; };
@@ -31,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B10F18920EFFAB300A4A3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B14212820D5C18C00254912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B10F18320EFFAB300A4A3FC;
+			remoteInfo = NotificationService;
+		};
 		2B14214520D5C18D00254912 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B14212820D5C18C00254912 /* Project object */;
@@ -47,18 +53,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2B10F18F20EFFAB300A4A3FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B10F18B20EFFAB300A4A3FC /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		02CF2A204D88DA49D4A9C054 /* Pods-Daily JumbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily JumbleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily JumbleUITests/Pods-Daily JumbleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2588979A487EB250B882020E /* Pods_Daily_JumbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_JumbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		293761993F58100C6C787CFF /* Pods-Daily JumbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily JumbleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily JumbleTests/Pods-Daily JumbleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B0ADBFB20DF10D500F1D3CA /* mediumsome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mediumsome.txt; sourceTree = "<group>"; };
-		2B0ADBFD20DF237000F1D3CA /* six.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = six.txt; sourceTree = "<group>"; };
-		2B0ADBFE20DF237000F1D3CA /* long.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = long.txt; sourceTree = "<group>"; };
-		2B0ADBFF20DF237000F1D3CA /* seven.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seven.txt; sourceTree = "<group>"; };
-		2B0ADC0020DF237100F1D3CA /* five.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = five.txt; sourceTree = "<group>"; };
-		2B0ADC0520DF271B00F1D3CA /* sixLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixLetterWords.swift; sourceTree = "<group>"; };
-		2B0ADC0720DF27D200F1D3CA /* sevenLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenLetterWords.swift; sourceTree = "<group>"; };
-		2B0ADC0920DF27DF00F1D3CA /* longWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longWords.swift; sourceTree = "<group>"; };
+		2B10F17F20EFE9F000A4A3FC /* Daily Jumble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Daily Jumble.entitlements"; sourceTree = "<group>"; };
+		2B10F18420EFFAB300A4A3FC /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B10F18620EFFAB300A4A3FC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2B10F18820EFFAB300A4A3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B14213020D5C18C00254912 /* Daily Jumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Jumble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B14213320D5C18C00254912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B14213520D5C18C00254912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +89,12 @@
 		2B14215320D5C18D00254912 /* Daily_JumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_JumbleUITests.swift; sourceTree = "<group>"; };
 		2B14215520D5C18D00254912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B14216120D5D30200254912 /* wordViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordViewViewController.swift; sourceTree = "<group>"; };
-		2BDC4F2C20DC147C009A8EE5 /* some.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = some.txt; sourceTree = "<group>"; };
+		2B3A7120210F70E600AAAEB0 /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
+		2B3A713A2110F53900AAAEB0 /* long.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = long.txt; sourceTree = "<group>"; };
+		2B3A713B2110F53900AAAEB0 /* five.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = five.txt; sourceTree = "<group>"; };
+		2B3A713C2110F53900AAAEB0 /* seven.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seven.txt; sourceTree = "<group>"; };
+		2B3A713D2110F53A00AAAEB0 /* some.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = some.txt; sourceTree = "<group>"; };
+		2B3A713E2110F53A00AAAEB0 /* six.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = six.txt; sourceTree = "<group>"; };
 		2BDC4F3020DC7FF3009A8EE5 /* fiveLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveLetterWords.swift; sourceTree = "<group>"; };
 		31E67C6414F181143F2D0610 /* Pods-Daily Jumble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Jumble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Jumble/Pods-Daily Jumble.release.xcconfig"; sourceTree = "<group>"; };
 		3799A0A61E3613E9D2D6F376 /* Pods-Daily JumbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily JumbleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily JumbleUITests/Pods-Daily JumbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +105,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B10F18120EFFAB300A4A3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B14212D20D5C18C00254912 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,12 +139,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B10F18520EFFAB300A4A3FC /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				2B10F18620EFFAB300A4A3FC /* NotificationService.swift */,
+				2B10F18820EFFAB300A4A3FC /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		2B14212720D5C18C00254912 = {
 			isa = PBXGroup;
 			children = (
 				2B14213220D5C18C00254912 /* Daily Jumble */,
 				2B14214720D5C18D00254912 /* Daily JumbleTests */,
 				2B14215220D5C18D00254912 /* Daily JumbleUITests */,
+				2B10F18520EFFAB300A4A3FC /* NotificationService */,
 				2B14213120D5C18C00254912 /* Products */,
 				E6C1AEAEF05093F5DA681809 /* Pods */,
 				89EE56C78492AD41F83D1F6A /* Frameworks */,
@@ -129,6 +167,7 @@
 				2B14213020D5C18C00254912 /* Daily Jumble.app */,
 				2B14214420D5C18D00254912 /* Daily JumbleTests.xctest */,
 				2B14214F20D5C18D00254912 /* Daily JumbleUITests.xctest */,
+				2B10F18420EFFAB300A4A3FC /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,21 +175,19 @@
 		2B14213220D5C18C00254912 /* Daily Jumble */ = {
 			isa = PBXGroup;
 			children = (
+				2B10F17F20EFE9F000A4A3FC /* Daily Jumble.entitlements */,
 				2B14213320D5C18C00254912 /* AppDelegate.swift */,
 				2B14213520D5C18C00254912 /* ViewController.swift */,
 				2B14213720D5C18C00254912 /* Main.storyboard */,
 				2B14216120D5D30200254912 /* wordViewViewController.swift */,
 				2BDC4F3020DC7FF3009A8EE5 /* fiveLetterWords.swift */,
-				2B0ADC0520DF271B00F1D3CA /* sixLetterWords.swift */,
-				2B0ADC0720DF27D200F1D3CA /* sevenLetterWords.swift */,
-				2B0ADC0920DF27DF00F1D3CA /* longWords.swift */,
-				2B0ADC0020DF237100F1D3CA /* five.txt */,
-				2B0ADBFE20DF237000F1D3CA /* long.txt */,
-				2B0ADBFF20DF237000F1D3CA /* seven.txt */,
-				2B0ADBFD20DF237000F1D3CA /* six.txt */,
-				2B0ADBFB20DF10D500F1D3CA /* mediumsome.txt */,
-				2BDC4F2C20DC147C009A8EE5 /* some.txt */,
+				2B3A7120210F70E600AAAEB0 /* HighScoresViewController.swift */,
 				2B14213A20D5C18D00254912 /* Assets.xcassets */,
+				2B3A713B2110F53900AAAEB0 /* five.txt */,
+				2B3A713E2110F53A00AAAEB0 /* six.txt */,
+				2B3A713C2110F53900AAAEB0 /* seven.txt */,
+				2B3A713A2110F53900AAAEB0 /* long.txt */,
+				2B3A713D2110F53A00AAAEB0 /* some.txt */,
 				2B14213C20D5C18D00254912 /* LaunchScreen.storyboard */,
 				2B14213F20D5C18D00254912 /* Info.plist */,
 			);
@@ -201,6 +238,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B10F18320EFFAB300A4A3FC /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B10F18C20EFFAB300A4A3FC /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				2B10F18020EFFAB300A4A3FC /* Sources */,
+				2B10F18120EFFAB300A4A3FC /* Frameworks */,
+				2B10F18220EFFAB300A4A3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 2B10F18420EFFAB300A4A3FC /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2B14212F20D5C18C00254912 /* Daily Jumble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B14215820D5C18D00254912 /* Build configuration list for PBXNativeTarget "Daily Jumble" */;
@@ -209,12 +263,13 @@
 				2B14212C20D5C18C00254912 /* Sources */,
 				2B14212D20D5C18C00254912 /* Frameworks */,
 				2B14212E20D5C18C00254912 /* Resources */,
-				EC90BBDE7F6CDFC17D088FE4 /* [CP] Embed Pods Frameworks */,
-				D98EA08640EBEB6AA7BE7F98 /* [CP] Copy Pods Resources */,
+				EF69F6154E6129288F8E6EDC /* [CP] Embed Pods Frameworks */,
+				2B10F18F20EFFAB300A4A3FC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B10F18A20EFFAB300A4A3FC /* PBXTargetDependency */,
 			);
 			name = "Daily Jumble";
 			productName = "Daily Jumble";
@@ -269,8 +324,16 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Vishal Narayan";
 				TargetAttributes = {
+					2B10F18320EFFAB300A4A3FC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					2B14212F20D5C18C00254912 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2B14214320D5C18D00254912 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -298,24 +361,31 @@
 				2B14212F20D5C18C00254912 /* Daily Jumble */,
 				2B14214320D5C18D00254912 /* Daily JumbleTests */,
 				2B14214E20D5C18D00254912 /* Daily JumbleUITests */,
+				2B10F18320EFFAB300A4A3FC /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B10F18220EFFAB300A4A3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B14212E20D5C18C00254912 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0ADC0320DF237100F1D3CA /* seven.txt in Resources */,
 				2B14213E20D5C18D00254912 /* LaunchScreen.storyboard in Resources */,
+				2B3A71432110F53B00AAAEB0 /* six.txt in Resources */,
 				2B14213B20D5C18D00254912 /* Assets.xcassets in Resources */,
-				2B0ADBFC20DF10D500F1D3CA /* mediumsome.txt in Resources */,
-				2B0ADC0220DF237100F1D3CA /* long.txt in Resources */,
-				2B0ADC0120DF237100F1D3CA /* six.txt in Resources */,
+				2B3A713F2110F53B00AAAEB0 /* long.txt in Resources */,
+				2B3A71422110F53B00AAAEB0 /* some.txt in Resources */,
 				2B14213920D5C18C00254912 /* Main.storyboard in Resources */,
-				2B0ADC0420DF237100F1D3CA /* five.txt in Resources */,
-				2BDC4F2D20DC147C009A8EE5 /* some.txt in Resources */,
+				2B3A71412110F53B00AAAEB0 /* seven.txt in Resources */,
+				2B3A71402110F53B00AAAEB0 /* five.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,40 +460,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D98EA08640EBEB6AA7BE7F98 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Daily Jumble/Pods-Daily Jumble-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daily Jumble/Pods-Daily Jumble-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC90BBDE7F6CDFC17D088FE4 /* [CP] Embed Pods Frameworks */ = {
+		EF69F6154E6129288F8E6EDC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Daily Jumble/Pods-Daily Jumble-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/AmpiOS/AmpiOS.framework",
+				"${PODS_ROOT}/AmpiOS/AmpiOS.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AmpiOS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/AmpiOS.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,15 +485,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B10F18020EFFAB300A4A3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B10F18720EFFAB300A4A3FC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B14212C20D5C18C00254912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3A7121210F70E600AAAEB0 /* HighScoresViewController.swift in Sources */,
 				2B14216220D5D30200254912 /* wordViewViewController.swift in Sources */,
-				2B0ADC0620DF271B00F1D3CA /* sixLetterWords.swift in Sources */,
 				2B14213620D5C18C00254912 /* ViewController.swift in Sources */,
-				2B0ADC0A20DF27DF00F1D3CA /* longWords.swift in Sources */,
-				2B0ADC0820DF27D200F1D3CA /* sevenLetterWords.swift in Sources */,
 				2BDC4F3120DC7FF3009A8EE5 /* fiveLetterWords.swift in Sources */,
 				2B14213420D5C18C00254912 /* AppDelegate.swift in Sources */,
 			);
@@ -466,6 +524,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B10F18A20EFFAB300A4A3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B10F18320EFFAB300A4A3FC /* NotificationService */;
+			targetProxy = 2B10F18920EFFAB300A4A3FC /* PBXContainerItemProxy */;
+		};
 		2B14214620D5C18D00254912 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2B14212F20D5C18C00254912 /* Daily Jumble */;
@@ -498,6 +561,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B10F18D20EFFAB300A4A3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8LBFGPKD4;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheroes.Tech.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B10F18E20EFFAB300A4A3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8LBFGPKD4;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheroes.Tech.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2B14215620D5C18D00254912 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -616,17 +719,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5319393B828C98F6EA32DDB /* Pods-Daily Jumble.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Daily Jumble/Daily Jumble.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				DEVELOPMENT_TEAM = K8LBFGPKD4;
 				INFOPLIST_FILE = "Daily Jumble/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-Jumble";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheroes.Tech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -636,17 +744,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31E67C6414F181143F2D0610 /* Pods-Daily Jumble.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Daily Jumble/Daily Jumble.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HN2YR2YZW9;
+				DEVELOPMENT_TEAM = K8LBFGPKD4;
 				INFOPLIST_FILE = "Daily Jumble/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VNarayan.Daily-Jumble";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheroes.Tech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -741,6 +854,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B10F18C20EFFAB300A4A3FC /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B10F18D20EFFAB300A4A3FC /* Debug */,
+				2B10F18E20EFFAB300A4A3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B14212B20D5C18C00254912 /* Build configuration list for PBXProject "Daily Jumble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
